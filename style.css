@@ -1,0 +1,148 @@
+img{
+  width: 100%
+}
+h3{
+  position: absolute;
+  top: 26%;
+  left: 22%;
+  font-size: 250%;
+  font-family: 'Abril Fatface';
+  color: #1c1c1c;
+}
+h1{
+  position: absolute;
+  top: 32%;
+  left: 22%;
+  font-size: 400%;
+  font-family: 'Abril Fatface';
+  color: #1c1c1c;
+}
+.body{
+  margin-left: 210px;
+  margin-right: 180px;
+  font-family: 'Josefin Sans';
+  color: #585858;
+}
+.first{
+  font-size: 19px;
+  line-height: 25px;
+  margin-top: 50px;
+  margin-bottom: -40px;
+}
+blockquote{
+  font-family: 'Abril Fatface';
+  font-size: 45px;
+  line-height: 0px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #424242;
+  height: auto;
+  color: white;
+  padding-right: 50px;
+  padding-left: 15px;
+}
+.quotaionmark{
+  font-size: 100px;
+  position: relative;
+  top: 40px;
+}
+.together{
+  position: relative;
+  top: -60px;
+  left: 20px;
+}
+.headerA{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.headerB{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.headerC{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Merriweather';
+  font-style: italic;
+  margin-bottom: 30px;
+}
+p{
+  line-height: 25px;
+}
+.twoline{
+  position: relative;
+  top: -70px;
+  left: 20px;
+  line-height: 65px;
+}
+li{
+  line-height: 25px;
+}
+hr{
+  border: 2px solid;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#invison{
+  width: 170px;
+  height: 50px;
+  display: flex;
+  box-shadow: 0px 4px 5px 2px #f2f2f2;
+  border-top-left-radius: 20px 50%;
+  border-bottom-left-radius: 20px 50%;
+  border-bottom-right-radius: 20px 50%;
+  border-top-right-radius: 20px 50%;
+  color: #1c1c1c;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.in{
+  display: inline;
+  font-family:'Pacifico';
+  font-size: 30px;
+  margin-right: 10px;
+}
+.in2{
+  display: inline;
+}
+#comments{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  box-shadow: 0px 4px 5px 2px #f2f2f2;
+  border-radius: 50%;
+  color: #1c1c1c;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 100px;
+}
+.com{
+  font-family:'Pacifico';
+  font-size: 30px;
+  margin-right: 10px;
+}
+.com2{
+  font-size: 0px;
+}
+#comments:hover{  
+  width: 120px;
+  border-top-left-radius: 20px 50%;
+  border-bottom-left-radius: 20px 50%;
+  border-bottom-right-radius: 20px 50%;
+  border-top-right-radius: 20px 50%;
+  justify-content: left;
+  padding-left: 10px;
+}
+#comments:hover .com2{
+    font-size: 15px;
+  }
